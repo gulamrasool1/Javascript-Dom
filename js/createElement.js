@@ -1,0 +1,13 @@
+const d = document.body;
+const j = document.createElement("div");
+const a = document.createElement("h2");
+const p = document.createElement("p");
+j.append(p);
+j.append(a);
+console.log(j);
+// const b = a.id="khan";
+const c = a.className = "ljan";
+console.log(a);
+const h = a.textContent = "hello bhai sahab";
+// const i =  p.createTextNode("jfkd kdjfkd skjkdfj fkdfjdkfjkdjf");
+d.append(j);
